@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "ami" {
-  list=map
+  type="map"
    
    default= {
       
